@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 public class RandomDogAutoPublisher {
 
     // ⚙️ Configuración básica en el propio código
-    private static final String OUTPUT_PATH = "docs/index.html";  // o "index.html" si publicas desde raíz
+    private static final String OUTPUT_PATH = "index.html";  // o "index.html" si publicas desde raíz
     private static final String REMOTE = "origin";
     private static final String BRANCH = "main";                  // o "gh-pages"
     private static final int INTERVAL_SECONDS = 10;               // cada 10 segundos
